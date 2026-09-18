@@ -12,6 +12,7 @@ The repository is organized by practical domains, version control workflows, and
 <summary><b>Self-Directed Practice & Projects</b></summary>
 
 * **Algorithmic Problem Solving**
+  * `in-class exercises (Carleton University)` — Implementation of efficient algorithms and data structures to solve core software engineering challenges from coursework.
   * `leetcode-practice` — Solutions for data structures, algorithms, and code optimization problems
 * **Personal Projects**
   * `personal-projects` — Custom coding tests, side projects, and hardware logic experiments (C, Python, Verilog)
