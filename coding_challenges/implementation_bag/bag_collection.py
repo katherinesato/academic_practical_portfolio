@@ -22,21 +22,21 @@ Key Skills & Concepts Demonstrated:
 import random
 
 
-class ListBag:
+class BagCollection:
 
     def __init__(self, iterable=[]) -> None:
-        """Initialize this ListBag.
+        """Initialize this BagCollection.
 
-        If no iterable is provided, the new ListBag is empty.
-        Otherwise, initialize the ListBag by adding the values
+        If no iterable is provided, the new BagCollection is empty.
+        Otherwise, initialize the BagCollection by adding the values
         provided by the iterable.
 
-        >>> bag = ListBag()
+        >>> bag = BagCollection()
         >>> bag
-        ListBag([])
-        >>> bag = ListBag([1, 4, 3, 6, 3])
+        BagCollection([])
+        >>> bag = BagCollection([1, 4, 3, 6, 3])
         >>> bag
-        ListBag([1, 4, 3, 6, 3])
+        BagCollection([1, 4, 3, 6, 3])
         """
         self._elems = []
         for item in iterable:
@@ -44,13 +44,13 @@ class ListBag:
             # or, self.add(item)
 
     def __len__(self) -> int:
-        """Return the number of items in this ListBag."""
+        """Return the number of items in this BagCollection."""
         return len(self._elems)
 
     def count(self, item: any) -> int:
         """Return the total number of occurrences of item in this bag.
 
-        >>> bag = ListBag([3, 1, 2, 3, 4])
+        >>> bag = BagCollection([3, 1, 2, 3, 4])
         >>> bag.count(3)
         2
         >>> bag.count(7)
@@ -59,12 +59,12 @@ class ListBag:
         return self._elems.count(item)
 
     def remove(self, item: any) -> any:
-        """Remove and return one instance of item from this ListBag.
+        """Remove and return one instance of item from this BagCollection.
 
         Raises ValueError if the bag is empty.
         Raises ValueError if item is not in the bag.
 
-        >>> bag = ListBag([3, 1, 2, 3, 4])
+        >>> bag = BagCollection([3, 1, 2, 3, 4])
 
         # The bag has 5 elements, including two 3's.
         >>>len(bag)
@@ -92,11 +92,11 @@ class ListBag:
 
         Raises ValueError if the bag is empty.
 
-        >>> bag = ListBag([3, 1, 2, 3, 4])
+        >>> bag = BagCollection([3, 1, 2, 3, 4])
         >>> len(bag)
         5
 
-        >>> ListBag.grab()
+        >>> BagCollection.grab()
         # grab will randomly select one of items stored in the bag,
         # and remove and return that value. The value displayed in the shell
         # will be one of 1, 2, 3 or 4, depending on which item was removed.
@@ -109,43 +109,44 @@ class ListBag:
         grab_item = random.choice(self._elems)
         return self.remove(grab_item)
 
-    def __add__(self, other: 'ListBag') -> 'ListBag':
-        """Return a new ListBag containing the concatenation of self and other.
+    def __add__(self, other: 'BagCollection') -> 'BagCollection':
+        """Return a new BagCollection containing the concatenation of self and other.
 
-        Raises TypeError if other is not a ListBag.
+        Raises TypeError if other is not a BagCollection.
 
-        >>> bag1 = ListBag([1, 3, 5])
-        >>> bag2 = ListBag([2, 4, 6])
+        >>> bag1 = BagCollection([1, 3, 5])
+        >>> bag2 = BagCollection([2, 4, 6])
         >>> bag3 = bag1 + bag2
         >>> repr(bag3)
-        'ListBag([1, 3, 5, 2, 4, 6])'
+        'BagCollection([1, 3, 5, 2, 4, 6])'
 
         Note: Depending on how __add__ and __repr__ are implemented, the
         order of the elements in the string returned by repr may be different.
         """
-        if not isinstance(other, ListBag):
-            raise TypeError("can only concatenate ListBag to ListBag")
+        if not isinstance(other, BagCollection):
+            raise TypeError(
+                "can only concatenate BagCollection to BagCollection")
 
-        return ListBag(self._elems + other._elems)
+        return BagCollection(self._elems + other._elems)
 
-    def __eq__(self, other: 'ListBag') -> bool:
-        """Return True if self is equal to the ListBag referred to by other;
+    def __eq__(self, other: 'BagCollection') -> bool:
+        """Return True if self is equal to the BagCollection referred to by other;
         otherwise return False.
 
-        >>> bag1 = ListBag([1, 2, 3])
-        >>> bag2 = ListBag([3, 2, 1])
+        >>> bag1 = BagCollection([1, 2, 3])
+        >>> bag2 = BagCollection([3, 2, 1])
         >>> bag1 == bag2
         True
 
-        >>> bag1 = ListBag([1, 2, 3])
-        >>> bag2 = ListBag([4, 5, 6])
+        >>> bag1 = BagCollection([1, 2, 3])
+        >>> bag2 = BagCollection([4, 5, 6])
         >>> bag1 == bag2
         False
         """
-        if not isinstance(other, ListBag):
+        if not isinstance(other, BagCollection):
             return False
 
-        # Solution considering that dict can also be an elem of ListBag:
+        # Solution considering that dict can also be an elem of BagCollection:
         if len(self._elems) != len(other._elems):
             return False
 
@@ -159,7 +160,7 @@ class ListBag:
 
         return True
 
-        # Another solution considering that there are no dict in the ListBag:
+        # Another solution considering that there are no dict in the BagCollection:
         #
         # list1 = list(self._elems)
         # list2 = list(other._elems)
