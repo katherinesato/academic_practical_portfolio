@@ -8,10 +8,11 @@ Welcome! This repository serves as a dedicated space for my independent technica
 
 The repository is organized by practical domains, version control workflows, and foundational reading:
 
+Markdown
 <details>
 <summary><b>Algorithms Problem Solving</b></summary>
-  * `in-class exercises (Carleton University)` — Implementation of efficient algorithms and data structures to solve core software engineering challenges from coursework.
-  * `leetcode-practice` — Solutions for data structures, algorithms, and code optimization problems
+
+> [function_text_concordance_generator (Python)](function_text_concordance_generator)  `in-class exercise (Carleton University)`
 
 </details>
 
