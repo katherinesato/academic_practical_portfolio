@@ -51,13 +51,13 @@ def build_concordance(filename: str) -> dict[str, list[int]]:
 
 
 if __name__ == '__main__':
-    t_conc1 = build_concordance('two_cities.txt')
+    t_conc1 = build_concordance('input2_two_cities.txt')
     if len(t_conc1) != 0:
         print('Concordance for "two_cities.txt":\n', t_conc1)
     else:
         print('There are no words in this text file')
 
-    t_conc2 = build_concordance('sons_of_martha.txt')
+    t_conc2 = build_concordance('input1_sons_of_martha.txt')
     if len(t_conc2) != 0:
         print('Concordance for "sons_of_martha.txt":\n', t_conc2)
     else:
