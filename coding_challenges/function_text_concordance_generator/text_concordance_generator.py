@@ -28,11 +28,11 @@ def build_concordance(filename: str) -> dict[str, list[int]]:
 
     >>> concordance = build_concordance('sons_of_martha.txt')
     """
-    infile = open(filename, 'r')
+    file = open(filename, "r", encoding="utf-8")
     conc = {}
     num_line = 0
 
-    for line in infile:
+    for line in file:
         num_line += 1
         word_list = line.split()
         for word in word_list:
@@ -43,19 +43,19 @@ def build_concordance(filename: str) -> dict[str, list[int]]:
                 if num_line not in conc[word]:
                     conc[word].append(num_line)
 
-    infile.close
+    file.close
     return conc
 
 
 if __name__ == '__main__':
-    t_conc1 = build_concordance('input2_two_cities.txt')
+    t_conc1 = build_concordance('input1_ballad.txt')
     if len(t_conc1) != 0:
-        print('Concordance for "two_cities.txt":\n', t_conc1)
+        print('Concordance for "input1_ballad.txt":\n', t_conc1)
     else:
         print('There are no words in this text file')
 
-    t_conc2 = build_concordance('input1_sons_of_martha.txt')
+    t_conc2 = build_concordance('input2_no_coward_soul_is_mine.txt')
     if len(t_conc2) != 0:
-        print('Concordance for "sons_of_martha.txt":\n', t_conc2)
+        print('Concordance for "input2_no_coward_soul_is_mine.txt":\n', t_conc2)
     else:
         print('There are no words in this text file')
