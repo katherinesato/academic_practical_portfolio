@@ -23,7 +23,7 @@ Explore the repository organized by technical domains and hands-on projects:
 <details>
 <summary><b>Coding Challenges</b></summary>
 
-> [`function_text_concordance_generator`](<coding_challenges/function_text_concordance_generator>) `in-class exercise (Carleton Univ.)` ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Data & Algorithms](https://img.shields.io/badge/Data_Struct_&_Algorithms-6C63FF?style=flat)
+> [`function_text_concordance_generator`](<coding_challenges/function_text_concordance_generator>) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Data & Algorithms](https://img.shields.io/badge/Data_Struct_&_Algorithms-6C63FF?style=flat)
 
 </details>
 
