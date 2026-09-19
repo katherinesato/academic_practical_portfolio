@@ -11,7 +11,7 @@ The repository is organized by practical domains, version control workflows, and
 <details>
 <summary><b>Algorithms Problem Solving</b></summary>
 
-> [`function_text_concordance_generator` (Python)](algorithmic_problem_solving/function_text_concordance_generator) — `in-class exercise (Carleton University)`
+> [`function_text_concordance_generator(Python)`](algorithmic_problem_solving/function_text_concordance_generator) — `in-class exercise (Carleton University)`
 
 </details>
 
