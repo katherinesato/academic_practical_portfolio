@@ -1,4 +1,4 @@
-# 🚀 Self-Directed Learning & Technical Practice
+# 🚀 Self-Directed Learning & Projects
 
 Welcome! This repository serves as a dedicated space for my independent technical learning, algorithm practice, and hands-on experiments outside of formal university coursework.
 
@@ -8,7 +8,6 @@ Welcome! This repository serves as a dedicated space for my independent technica
 
 The repository is organized by practical domains, version control workflows, and foundational reading:
 
-Markdown
 <details>
 <summary><b>Algorithms Problem Solving</b></summary>
 
