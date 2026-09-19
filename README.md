@@ -6,7 +6,7 @@ Welcome! This repository serves as a dedicated space for my independent technica
 
 ## 📂 Repository Structure
 
-The repository is organized by practical domains, version control workflows, and foundational reading:
+Explore the repository organized by technical domains and hands-on projects:
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
