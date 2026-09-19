@@ -8,10 +8,19 @@ Welcome! This repository serves as a dedicated space for my independent technica
 
 The repository is organized by practical domains, version control workflows, and foundational reading:
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white)
+![Algorithms](https://img.shields.io/badge/Algorithms-6C63FF?style=flat)
+![Backend](https://img.shields.io/badge/Backend-333333?style=flat)
+![Frontend](https://img.shields.io/badge/Frontend-FF6584?style=flat)
+![Data Structures](https://img.shields.io/badge/Data%20Structures-00897B?style=flat)
+![Database](https://img.shields.io/badge/Database-43A047?style=flat)
+
 <details>
 <summary><b>Algorithms Problem Solving</b></summary>
 
-> [`function_text_concordance_generator (Python)`](<algorithmic_problem_solving/function_text_concordance_generator (Python)>) — `in-class exercise (Carleton University)`
+> [`function_text_concordance_generator`](<algorithmic_problem_solving/function_text_concordance_generator>) `in-class exercise (Carleton Univ.)` ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Algorithms](https://img.shields.io/badge/Algorithms-6C63FF?style=flat) ![Data Structures](https://img.shields.io/badge/Data%20Structures-00897B?style=flat)
 
 </details>
 
