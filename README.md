@@ -1,4 +1,4 @@
-# 🚀 Self-Directed Learning & Projects
+# 🚀 Academic & Practical Portfolio
 
 Welcome! This repository serves as a dedicated space for my independent technical learning, algorithm practice, and hands-on experiments outside of formal university coursework.
 
@@ -18,9 +18,9 @@ Explore the repository organized by technical domains and hands-on projects:
 ![Database](https://img.shields.io/badge/Database-43A047?style=flat)
 
 <details>
-<summary><b>Algorithms Problem Solving</b></summary>
+<summary><b>Coding Challenges</b></summary>
 
-> [`function_text_concordance_generator`](<algorithmic_problem_solving/function_text_concordance_generator>) `in-class exercise (Carleton Univ.)` ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Algorithms](https://img.shields.io/badge/Algorithms-6C63FF?style=flat) ![Data Structures](https://img.shields.io/badge/Data%20Structures-00897B?style=flat)
+> [`function_text_concordance_generator`](<coding_challenges/function_text_concordance_generator>) `in-class exercise (Carleton Univ.)` ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Algorithms](https://img.shields.io/badge/Algorithms-6C63FF?style=flat) ![Data Structures](https://img.shields.io/badge/Data%20Structures-00897B?style=flat)
 
 </details>
 
