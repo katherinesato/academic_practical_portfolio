@@ -1,6 +1,6 @@
 # 🚀 Academic & Practical Portfolio
 
-Welcome! This repository serves as a dedicated space for my university coursework, coding challenges, and hands-on software development projects.
+Welcome! This repository serves as a dedicated space for my coding challenges and hands-on software development projects.
 
 ---
 
