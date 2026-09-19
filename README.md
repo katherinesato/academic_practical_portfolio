@@ -1,6 +1,6 @@
 # 🚀 Academic & Practical Portfolio
 
-Welcome! This repository serves as a dedicated space for my independent technical learning, algorithm practice, and hands-on experiments outside of formal university coursework.
+Welcome! This repository serves as a dedicated space for my university coursework (labs, data structures, and algorithms), coding challenges, and hands-on software development projects.
 
 ---
 
