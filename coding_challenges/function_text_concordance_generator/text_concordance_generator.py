@@ -1,7 +1,6 @@
 """
-===================================================================
 Text Concordance Builder
-===================================================================
+
 Description:
     A robust Python utility designed to parse text files and generate 
     a word concordance. The function maps every unique word in a document 
@@ -14,9 +13,7 @@ Skills Demonstrated:
     - Algorithmic Logic & Duplicate Prevention
 
 Author: Katherine Borges Sato
-Student Number: 101392691
-Course: SYSC 2100 (Algorithms and Data Structure)
-===================================================================
+
 """
 import string
 
